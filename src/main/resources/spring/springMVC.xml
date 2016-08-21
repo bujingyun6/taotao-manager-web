@@ -27,4 +27,5 @@
 	<dubbo:monitor protocol="registry"/>
 	<dubbo:reference interface="cn.zhx.service.ItemCatSerivce" id="itemCatSerivceImpl" />
 	<dubbo:reference interface="cn.zhx.service.ContentCatgoryService" id="contentCatgoryServiceImpl" />
+	<dubbo:reference interface="cn.zhx.service.ContentSerivce" id="contentServiceImpl" />
 </beans>
